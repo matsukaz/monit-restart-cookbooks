@@ -1,11 +1,7 @@
-service "monit" do
-  action :restart
-end
-
-execute 'restart-monit-managed-services' do
+execute 'restart-monit' do
   user "root"
   group "root"
-  command "monit restart all"
+  command "sudo service monit restart"
   action :run
 end
 
