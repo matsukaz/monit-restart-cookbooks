@@ -17,4 +17,4 @@ As a result, */etc/security/limits.conf* settings are applied and you can avoid 
 
 Apply this cookbook to the target Layer settings by adding **monit_restart** recipe to Deploy lifecycle as follows.
 
-![Layer settings](https://github.com/matsukaz/monit-restart-cookbooks/layer_settings.png)
+![Layer settings](https://github.com/matsukaz/monit-restart-cookbooks/blob/master/layer_settings.png)
